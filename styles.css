@@ -183,16 +183,18 @@ input {
 
 .newBookmarks {
   width: 100%;
-  height: 50%;
+  height: 550px;
   background-color: #455A64;
   position: static;
+
 }
 
 .bookmarks {
   background-color: #cfd8dc;
   width: 100%;
-  height: 50%;
+  height: 550px;
   position: static;
+
 }
 @media screen and (max-width: 600px) {
   .card {
@@ -208,7 +210,7 @@ input {
 .card {
   width: 300px;
   height: 110px;
-  margin: 25px;;
+  margin: 25px;
 }
 
 .titleInput {
@@ -226,6 +228,10 @@ input {
 .enter {
   padding: 20px 40px 40px 40px;
   width: 300px;
+}
+
+.counters > span {
+  font-size: 12px;
 }
 
 
