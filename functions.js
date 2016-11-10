@@ -50,7 +50,7 @@ function checkEnter() {
   } else {
     $('.enter').prop('disabled', false);
   }
-}
+};
 
 function updateCardCounter() {
 
